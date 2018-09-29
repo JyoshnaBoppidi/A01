@@ -1,0 +1,13 @@
+body{
+           font-family: "Geogia", "Times New Roman", Times, serif;
+           font-style: italic;
+  border-color: black;
+        border-width:1px;
+        border-style:solid;
+        background-image:url(light.jpg);
+        background-size:100%;
+
+}
+.section-header{
+      text-align: center;
+}
