@@ -1,8 +1,15 @@
 .Header{
 padding-top: 100px;
 font-size: 18px;
+width:50px;
+		
 }
 body{
 
 
 background-image:url(light.jpg);}
+.class form-group{
+    width:50px;
+}
+.class form-group{
+    width:50px;}
