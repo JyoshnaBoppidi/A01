@@ -45,10 +45,10 @@
             <br>
             firstname:<br>
 
-            <input type="text" name="firstname" required>
+            <input type="text" name="firstname" pattern="[A-Za-z]*"required>
             <br>
             lastname:<br>
-            <input type="text" name="lastname" required>
+            <input type="text" name="lastname"pattern="[A-Za-z]*" required>
             <br>
             <input type="radio" name="gender" value="male">Male<br>
             <input type="radio" name="gender" value="female" checked>female <br>
@@ -69,7 +69,7 @@
                 <p id="phone"><strong>Phone No</strong></p>
             </label>
             <div class="col-sm-4">
-               <input type="phone" class="form-contrl" id="inputPhone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+               <input type="number" class="form-contrl" id="inputPhone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </div>
         </div>
 
