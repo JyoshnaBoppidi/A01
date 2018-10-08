@@ -1,7 +1,80 @@
-body{
-padding-top: 80px;
-font-size: 16px;
-}
+* {
+    color: #333;
+    font-family: helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+  
+  }
+  
+  span {
+    font-weight: 900;
+  }
+  
+  div {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px 30px 27px;
+    
+    border-radius: 7px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #slaps {
+    letter-spacing: 1.5px;
+    font-size: 0.8em;
+  }
+  
+  input {
+    width: 75%;
+    margin-top: 5px;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+  }
+  
+  
+  #check {
+    background: #cce5e5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    margin: 0 auto;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #99CCCC;
+  }
+  
+  #check:hover {
+    cursor: pointer;
+  }
+  
+  #check:active{
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+  }
+  
+  #clear {
+    font-size: 0.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+      transition: color 0.4s ease-out;
+  }
+  
+  
+  #clear:hover {
+    color: #99CCCC;
+  }
+  
 body{
 
 
